@@ -13,6 +13,9 @@
 		36728BD022577B9B00681C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36728BCF22577B9B00681C0F /* Assets.xcassets */; };
 		36728BD322577B9B00681C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36728BD122577B9B00681C0F /* LaunchScreen.storyboard */; };
 		36728BD622577B9B00681C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BD522577B9B00681C0F /* main.m */; };
+		36728BDE22577C1800681C0F /* MessageR.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BDD22577C1800681C0F /* MessageR.m */; };
+		36728BE122577FB900681C0F /* SpareReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BE022577FB900681C0F /* SpareReceiver.m */; };
+		36728BE4225784A700681C0F /* RuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BE3225784A700681C0F /* RuntimeTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		36728BD222577B9B00681C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36728BD422577B9B00681C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36728BD522577B9B00681C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36728BDC22577C1800681C0F /* MessageR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageR.h; sourceTree = "<group>"; };
+		36728BDD22577C1800681C0F /* MessageR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageR.m; sourceTree = "<group>"; };
+		36728BDF22577FB900681C0F /* SpareReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpareReceiver.h; sourceTree = "<group>"; };
+		36728BE022577FB900681C0F /* SpareReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpareReceiver.m; sourceTree = "<group>"; };
+		36728BE2225784A700681C0F /* RuntimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTool.h; sourceTree = "<group>"; };
+		36728BE3225784A700681C0F /* RuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				36728BC722577B9A00681C0F /* AppDelegate.m */,
 				36728BC922577B9A00681C0F /* ViewController.h */,
 				36728BCA22577B9A00681C0F /* ViewController.m */,
+				36728BDC22577C1800681C0F /* MessageR.h */,
+				36728BDD22577C1800681C0F /* MessageR.m */,
+				36728BDF22577FB900681C0F /* SpareReceiver.h */,
+				36728BE022577FB900681C0F /* SpareReceiver.m */,
+				36728BE2225784A700681C0F /* RuntimeTool.h */,
+				36728BE3225784A700681C0F /* RuntimeTool.m */,
 				36728BCC22577B9A00681C0F /* Main.storyboard */,
 				36728BCF22577B9B00681C0F /* Assets.xcassets */,
 				36728BD122577B9B00681C0F /* LaunchScreen.storyboard */,
@@ -143,6 +158,9 @@
 			files = (
 				36728BCB22577B9A00681C0F /* ViewController.m in Sources */,
 				36728BD622577B9B00681C0F /* main.m in Sources */,
+				36728BE122577FB900681C0F /* SpareReceiver.m in Sources */,
+				36728BDE22577C1800681C0F /* MessageR.m in Sources */,
+				36728BE4225784A700681C0F /* RuntimeTool.m in Sources */,
 				36728BC822577B9A00681C0F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

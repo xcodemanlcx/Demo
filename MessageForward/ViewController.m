@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MessageR.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //对象的方法
+//    MessageR *messageR = [[MessageR alloc] init];
+//    [messageR performSelector:@selector(instanceFunction)];
+    
+    //类方法
+//    [MessageR performSelector:@selector(classFunction)];
+    __weak typeof(self) weakSelf = self;
+    void (^block)(void) = ^{
+        NSLog(@"%@",weakSelf);
+    };
+    
 }
 
 
