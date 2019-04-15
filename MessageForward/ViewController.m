@@ -10,7 +10,6 @@
 #import "MessageR.h"
 #import "MessageRClass.h"
 
-
 @interface ViewController ()
 
 @end
@@ -20,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 
     //对象的方法
     MessageR *messageR = [[MessageR alloc] init];
