@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362EA8B02261AB4D007B0973 /* MessageRClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 362EA8AF2261AB4D007B0973 /* MessageRClass.m */; };
 		36728BC822577B9A00681C0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BC722577B9A00681C0F /* AppDelegate.m */; };
 		36728BCB22577B9A00681C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36728BCA22577B9A00681C0F /* ViewController.m */; };
 		36728BCE22577B9A00681C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36728BCC22577B9A00681C0F /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362EA8AE2261AB4D007B0973 /* MessageRClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageRClass.h; sourceTree = "<group>"; };
+		362EA8AF2261AB4D007B0973 /* MessageRClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageRClass.m; sourceTree = "<group>"; };
 		36728BC322577B9A00681C0F /* MessageForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36728BC622577B9A00681C0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36728BC722577B9A00681C0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				36728BCA22577B9A00681C0F /* ViewController.m */,
 				36728BDC22577C1800681C0F /* MessageR.h */,
 				36728BDD22577C1800681C0F /* MessageR.m */,
+				362EA8AE2261AB4D007B0973 /* MessageRClass.h */,
+				362EA8AF2261AB4D007B0973 /* MessageRClass.m */,
 				36728BDF22577FB900681C0F /* SpareReceiver.h */,
 				36728BE022577FB900681C0F /* SpareReceiver.m */,
 				36728BE2225784A700681C0F /* RuntimeTool.h */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362EA8B02261AB4D007B0973 /* MessageRClass.m in Sources */,
 				36728BCB22577B9A00681C0F /* ViewController.m in Sources */,
 				36728BD622577B9B00681C0F /* main.m in Sources */,
 				36728BE122577FB900681C0F /* SpareReceiver.m in Sources */,

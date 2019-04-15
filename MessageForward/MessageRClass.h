@@ -1,18 +1,18 @@
 //
-//  MessageR.h
+//  MessageRClass.h
 //  MessageForward
 //
-//  Created by leichunxiang on 2019/4/5.
+//  Created by leichunxiang on 2019/4/13.
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#define instanceFun @"instanceFunction"
+#define classFun @"classFunction"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MessageR : NSObject
+@interface MessageRClass : NSObject
 
 @end
 
